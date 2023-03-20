@@ -4,7 +4,7 @@ import cv2
 import cvzone
 import math
 from sort import *
-
+'''using yolo from ultralytics'''
 cap = cv2.VideoCapture("./cars.mp4")  # For Video
 
 model = YOLO("../Yolo-Weights/yolov8l.pt")
